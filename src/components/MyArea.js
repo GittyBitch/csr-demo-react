@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-function MeinBereich() {
+function MyArea() {
     let navigate = useNavigate();
     const [userName, setUserName] = useState('');
     const [userImage, setUserImage] = useState('');
@@ -30,11 +30,11 @@ function MeinBereich() {
 
     return (
         <div>
-            <h2>Mein Bereich</h2>
+            <h2>Welcome to your private area</h2>
             {userName && <p>Willkommen, {userName}!</p>}
             <button onClick={() => navigate('/about')}>Über Uns</button>
         </div>
     );
 }
 
-export default MeinBereich;
+export default MyArea;

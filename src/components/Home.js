@@ -7,7 +7,7 @@ function Home() {
     return (
         <div>
             <h2>Home</h2>
-            <p>Willkommen auf der Startseite! Hier könnten wichtige Informationen oder Features hervorgehoben werden.</p>
+            <p>Willkommen auf der TechStarter Startseite! Hier könnten wichtige Informationen über DevOps-Zertifizierungen stehen.</p>
             <button onClick={() => navigate('/about')}>Über Uns</button>
             <button onClick={() => navigate('/login')}>Login</button>
         </div>

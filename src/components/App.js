@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./Home";
 import About from "./About";
 import Login from "./Login";
-import MeinBereich from "./MeinBereich";
+import MyArea from "./MyArea";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
                 <Route path='/' element={<Home />} />
                 <Route path='about' element={<About />} />
                 <Route path='login' element={<Login />} />
-                <Route path='myspace' element={<MeinBereich />} />
+                <Route path='myspace' element={<MyArea />} />
             </Routes>
         </div>
     );
